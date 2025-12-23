@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: my-web-app
 spec:
-  replicas: 1  # 注意这里是1个副本
+  replicas: 0  # 注意这里是1个副本
   selector:
     matchLabels:
       app: web
