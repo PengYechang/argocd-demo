@@ -23,7 +23,7 @@ kind: Service
 metadata:
   name: my-web-service
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
     app: web
   ports:
